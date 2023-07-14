@@ -1,0 +1,113 @@
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+  /* @font-face {
+   font-family: "Times New Roman";
+   font-style: normal;
+   font-weight: 400;
+   src: url("./fonts/times_new_roman.woff2") format("woff2");
+   font-display: swap;
+ } */
+ /* @import url(//db.onlinewebfonts.com/c/266447f91e71c4700d74aab76fbc3870?family=Bodoni+MT+Black); */
+  
+  html {
+    height: 100%;
+    overflow-x: hidden;
+    /* overflow-y: hidden  */
+  }
+  
+  body {
+    width: 100%;
+    min-height: 100%;
+    font-family: "Bodoni MT Black";
+    font-size: calc(10px + 6 * (100vw / 1555));
+    line-height: calc(10px + 6 * (100vw / 1555));
+    font-weight: 400;
+    color: #2E2D71;
+    background-color: #fff;
+    min-width: 320px;
+    max-width: 100%;
+    margin: 0 auto;
+    overflow-x: hidden;
+  }
+  button,
+  a{
+   cursor: pointer;
+   text-decoration: none;
+   color: #2E2D71;
+  }
+  p,
+  h2,
+  h1,
+  h3{
+    margin: 0;
+  }
+  li{
+    list-style: none;
+  }
+  ul{
+    margin: 0;
+    padding: 0;
+  }
+  .header__h2{
+    color: #909090;
+    font-size: calc(20px + 26 * (100vw / 1555));
+    line-height: calc(20px + 26 * (100vw / 1555));
+    font-weight: 700;
+    text-shadow: 
+        -0   -1px 0   #2E2D71,
+         0   -1px 0   #2E2D71,
+        -0    1px 0   #2E2D71,
+         0    1px 0   #2E2D71,
+        -1px -0   0   #2E2D71,
+         1px -0   0   #2E2D71,
+        -1px  0   0   #2E2D71,
+         1px  0   0   #2E2D71,
+        -1px -1px 0   #2E2D71,
+         1px -1px 0   #2E2D71,
+        -1px  1px 0   #2E2D71,
+         1px  1px 0   #2E2D71,
+        -1px -1px 0   #2E2D71,
+         1px -1px 0   #2E2D71,
+        -1px  1px 0   #2E2D71,
+         1px  1px 0   #2E2D71;
+         position: absolute;
+    left: 35%;
+    top: 40%;
+  }
+  .header{
+    padding: 5% 5% 30%;
+    background: url(img/1442829796_Michelin\ 1.jpg),
+                 url(img/Group.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 100%, 90% 90%;
+    position: relative;
+    
+  }
+  .header__nav-ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20%;
+  }
+  .header__nav-li{
+    padding-right: 5%;
+    display: flex;
+    align-items: center;
+    
+  }
+  .header__nav-li:nth-child(3){
+    padding-right: 20%;
+  }
+  .header__nav-li-img{
+    margin-right: 10px;
+  }
+  
