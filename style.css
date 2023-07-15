@@ -207,7 +207,9 @@
   .map{
     width: 100%;
   }
-
+  .img-modil--position{
+    display: none;
+  }
 
   /* header {
     display: flex;
@@ -326,9 +328,19 @@
     .section{
       padding: 10%;
     }
+    .img-modil--position{
+      display: block;
+      position: absolute;
+      width: 100px;
+      height: 80px;
+      top: 0;
+      left: 0;
+    }
+  
   }
   @media(min-width:768px){
     .menu-btn{
       display: none;
+      
     }
   }
